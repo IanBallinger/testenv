@@ -1,0 +1,10 @@
+name = "testenv"
+uuid = "ff745f1f-fbe8-419c-886a-42b5a0436373"
+authors = ["Ian Ballinger <iballing@mit.edu>"]
+version = "0.1.0"
+
+[deps]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+
+[compat]
+CUDA = "5.8.2"
