@@ -2,7 +2,7 @@
 
 julia_version = "1.11.5"
 manifest_format = "2.0"
-project_hash = "66458772c259be0f4b6f53f580fae3c90a4c0364"
+project_hash = "24eecf1ff63f929d0912c4a7888c0fa33576648e"
 
 [[deps.AbstractFFTs]]
 deps = ["LinearAlgebra"]
@@ -72,7 +72,7 @@ version = "0.5.0"
 
 [[deps.CUDA]]
 deps = ["AbstractFFTs", "Adapt", "BFloat16s", "CEnum", "CUDA_Driver_jll", "CUDA_Runtime_Discovery", "CUDA_Runtime_jll", "Crayons", "DataFrames", "ExprTools", "GPUArrays", "GPUCompiler", "GPUToolbox", "KernelAbstractions", "LLVM", "LLVMLoopInfo", "LazyArtifacts", "Libdl", "LinearAlgebra", "Logging", "NVTX", "Preferences", "PrettyTables", "Printf", "Random", "Random123", "RandomNumbers", "Reexport", "Requires", "SparseArrays", "StaticArrays", "Statistics", "demumble_jll"]
-git-tree-sha1 = "b8ae59258f3d96ce75a00f9229e719356eb929d6"
+path = "../CUDA.jl"
 uuid = "052768ef-5323-5732-b1bb-66c8b64840ba"
 version = "5.8.2"
 
